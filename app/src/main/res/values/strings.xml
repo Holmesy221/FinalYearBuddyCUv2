@@ -3,6 +3,16 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+
+    //Actionbar
+    <string name="things_to_do_string">Things to do</string>
+    <string name="module_notes_string">Module notes</string>
+    <string name="job_list_notes_string">Job/Postgrad tracker</string>
+    <string name="grade_calculator_string">Grade calculator</string>
+
+
+
+
+
 </resources>
