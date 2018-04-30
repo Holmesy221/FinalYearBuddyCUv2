@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/calculate_grade_tv"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+            />
+
+            <EditText
+                    android:id="@+id/grade_et_onee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/first_mark"
+                    android:gravity="center"
+
+            />
+
+            <EditText
+                    android:id="@+id/grade_et_twoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/second_mark"
+                    android:gravity="center"
+            />
+
+            <EditText
+                    android:id="@+id/grade_et_threee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/third_mark"
+                    android:gravity="center"/>
+
+
+            <EditText
+                    android:id="@+id/grade_et_fourr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/fourth_mark"
+                    android:gravity="center"/>
+
+            <EditText
+                    android:id="@+id/grade_et_fivee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/fifth_mark"
+                    android:gravity="center"/>
+            <LinearLayout
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <Button
+                        android:id="@+id/grade_get_result_buttonn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/calcuate_mark"/>
+                <TextView
+                        android:text="mark"
+                        android:gravity="center"
+                        android:id="@+id/grade_result_tvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+

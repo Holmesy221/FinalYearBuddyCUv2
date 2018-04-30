@@ -1,7 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculator_note_tv"
+            android:layout_margin="16dp"
+            android:gravity="center"
+    />
+
+
+    <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/calulate_grade_note_xtra"
+              android:gravity="center"
+              android:layout_marginTop="8dp"
+              android:layout_marginRight="16dp"
+              android:layout_marginLeft="16dp"/>
+
+    <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/calculate_grade_tv"
+              android:layout_gravity="center"
+              android:layout_margin="16dp"
+    />
+
+    <EditText
+              android:id="@+id/grade_et_one"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/first_mark"
+              android:gravity="center"
+
+    />
+
+    <EditText
+              android:id="@+id/grade_et_two"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/second_mark"
+              android:gravity="center"
+    />
+
+    <EditText
+              android:id="@+id/grade_et_three"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/third_mark"
+              android:gravity="center"/>
+
+
+    <EditText
+              android:id="@+id/grade_et_four"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/fourth_mark"
+              android:gravity="center"/>
+
+    <EditText
+              android:id="@+id/grade_et_five"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/fifth_mark"
+              android:gravity="center"/>
+
+    <EditText
+            android:id="@+id/grade_et_six"
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/sixth_mark"
+            android:gravity="center"/>
+
+    <EditText
+            android:id="@+id/grade_et_seven"
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:hint="@string/seventh_mark"/>
+
+    <EditText
+              android:id="@+id/grade_et_eight"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:hint="@string/eighth_mark"/>
+
+    <EditText android:id="@+id/grade_et_nine"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:hint="@string/ninth_mark"/>
+
+
+    <EditText android:id="@+id/grade_et_ten"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:hint="@string/tenth_mark"/>
+
+    <EditText android:id="@+id/grade_et_eleven"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:hint="@string/eleventh_mark"/>
+
+    <LinearLayout
+                  android:layout_margin="16dp"
+                  android:layout_gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <Button
+                android:id="@+id/grade_get_result_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/calcuate_mark"/>
+        <TextView
+                android:text="mark"
+                android:gravity="center"
+                android:id="@+id/grade_result_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+    </ScrollView>
+
+
 
 </LinearLayout>

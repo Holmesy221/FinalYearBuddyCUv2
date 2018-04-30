@@ -5,12 +5,39 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
 
-    //Actionbar
+    //Actionbar and nav
     <string name="things_to_do_string">Things to do</string>
     <string name="module_notes_string">Module notes</string>
     <string name="job_list_notes_string">Job/Postgrad tracker</string>
     <string name="grade_calculator_string">Grade calculator</string>
 
+
+
+    <string name="calculator_note_tv">The calculator is intended to be as accurate as possible. It may not be 100%.</string>
+    <string name="calculate_grade_tv">Type in your module mark grades below</string>
+    <string name="calulate_grade_note_xtra">This is option one, where we use the average mark of the 220 credits worth of modules with the
+        highest mark at level 2 and above to include a maximum of 120 credits at level 2. On the next tab will be the calculator
+    to calculate the average mark of 100 credits from level 3 or above. </string>
+    <string name="calculate_grade_other">This is option two, where we use the average mark of 100 credits worth of mudles
+    with the highest mark at level or above</string>
+
+    //hints for grade tabs
+
+    <string name="first_mark">Enter first mark</string>
+    <string name="second_mark">Enter second mark</string>
+    <string name="third_mark">Enter third mark</string>
+    <string name="fourth_mark">Enter fourth mark</string>
+    <string name="fifth_mark">Enter fifth mark</string>
+    <string name="sixth_mark">Enter sixth mark</string>
+    <string name="seventh_mark">Enter seventh mark</string>
+    <string name="eighth_mark">Enter eighth mark</string>
+    <string name="ninth_mark">Enter ninth mark</string>
+    <string name="tenth_mark">Enter tenth mark</string>
+    <string name="eleventh_mark">Enter final mark</string>
+    <string name="calcuate_mark">Calculate grade</string>
+<string name="job_add_title">Add job Title</string>
+    <string name="job_add_sum">Add job summary</string>
+<string name="job_add_button">Add</string>
 
 
 
